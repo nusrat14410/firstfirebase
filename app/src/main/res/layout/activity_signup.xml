@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:padding="25dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Signup">
@@ -16,6 +15,7 @@
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:layout_marginHorizontal="25dp"
         android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,6 +27,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="30dp"
         android:src="@drawable/download"
+        android:layout_marginHorizontal="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/SignUpTV"/>
@@ -38,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/userCIV">
@@ -56,6 +58,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="25dp"
+        app:passwordToggleEnabled="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/signUpEmailTIL">
@@ -74,6 +78,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="25dp"
+        app:passwordToggleEnabled="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/signUpCrePasswordTIL">
@@ -96,6 +102,7 @@
         android:backgroundTint="#3F51B5"
         android:text="Sign UP"
         app:cornerRadius="5dp"
+        android:layout_marginHorizontal="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/signUpConPasswordTIL" />
@@ -106,6 +113,7 @@
         android:layout_height="wrap_content"
         android:text="Already have an Account?."
         android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="25dp"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="90dp"
         app:layout_constraintTop_toBottomOf="@id/signUpBT"/>
